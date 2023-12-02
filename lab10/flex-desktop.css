@@ -63,10 +63,7 @@ a{
     flex: 1 1 100%;
     margin-top: 10px;
     text-align: center;
-    align-items: flex-end;
-}
-.galery figure{
-    display: inline-block;
+    align-items: flex-start;
 }
 .galery figure img{
     width: 10%;
