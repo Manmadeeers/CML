@@ -49,3 +49,22 @@
     width: auto;
     border: none;
 }
+
+.galery{
+    order: 4;
+    flex: 1 1 100%;
+    width: 100%;
+}
+.galery h4{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom:10px;
+}
+.galery figure{
+    margin-left: 0;
+    margin-top: 0;
+}
+.galery figure img{
+    width: 100%;
+    margin-left: 0;
+}

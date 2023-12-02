@@ -62,10 +62,22 @@ a{
     order: 5;
     flex: 1 1 100%;
     margin-top: 10px;
+}
+.galery h4{
     text-align: center;
-    align-items: flex-start;
+    margin-top: 0 ;
+    margin-bottom: 10px;
+}
+.galery figure{
+    width: 35%;
+    margin-left: 60px;
+    float: left;
+
 }
 .galery figure img{
-    width: 10%;
-    height: 10%;
+    width: 100%;
+
+}
+.galery figcaption{
+    text-align: center;
 }
