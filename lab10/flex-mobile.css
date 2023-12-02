@@ -2,7 +2,7 @@
     display: flex;
     flex-flow: column wrap;
     align-content: space-between;
-    align-items: flex-end;
+    align-items: flex-start;
     justify-content: center;
 }
 .head{
@@ -29,4 +29,22 @@
     flex: 1 1 100%;
     text-align: center;
     margin-top: 10px;
+}
+.menu div  {
+    flex:1 1 100%;
+    text-align: left;
+    border: 1px solid;
+    height: 0;
+    width: 30px;
+    margin-top: 5px;
+}
+.menu div a{
+    visibility: hidden;
+}
+.menu:hover div a{
+    visibility: visible;
+}
+.menu:hover div{
+    height:auto;
+    width: auto;
 }
