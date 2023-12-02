@@ -2,7 +2,7 @@
     display: flex;
     flex-flow: row wrap;
     align-content: space-between;
-    align-items: flex-start;
+    align-items: flex-end;
     justify-content: center;
 }
 .head{
@@ -21,11 +21,20 @@
     margin-right: 10px;
 }
 .container nav{
-    margin-right: 10px;
-    order: 1;
+    order: 0;
     flex: 1 1 100%;
     text-align: right;
+    align-items: flex-end;
 }
+
+.menu div  {
+    flex:1 1 100%;
+    text-align: right;
+    width: 10%;
+    margin-left: 90%;
+    border: none;
+}
+
 video{
     width: 100%;
 }
@@ -44,9 +53,4 @@ video{
 }
 audio{
     width: 100%;
-}
-.menu div  {
-    flex:1 1 10%;
-    text-align: right;
-    align-content: flex-end;
 }
