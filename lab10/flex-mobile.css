@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-between;
+    align-items: flex-start;
+    justify-content: center;
+}
+.head{
+    order: 0;
+    flex: 1 1 100%;
+    width: 100%;
+}
+.vids{
+    order: 1;
+    flex: 1 0.5 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.info{
+    order: 2;
+    flex: 1 1 100;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.music{
+    order: 3;
+    flex: 1 1 100%;
+    text-align: center;
+    margin-top: 10px;
+}
