@@ -58,3 +58,17 @@ audio{
 a{
     text-decoration: none;
 }
+.galery{
+    order: 5;
+    flex: 1 1 100%;
+    margin-top: 10px;
+    text-align: center;
+    align-items: flex-end;
+}
+.galery figure{
+    display: inline-block;
+}
+.galery figure img{
+    width: 10%;
+    height: 10%;
+}
