@@ -47,4 +47,5 @@
 .menu:hover div{
     height:auto;
     width: auto;
+    border: none;
 }
