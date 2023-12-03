@@ -1,3 +1,9 @@
+@media (max-width:480px){
+    .galery figcaption{
+        color: red;
+    }
+}
+@import url(figcaption.css) (max-width:768px);
 .container{
     display: flex;
     flex-flow: row wrap;
