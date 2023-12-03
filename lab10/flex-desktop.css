@@ -10,6 +10,16 @@
         display: block;
     }
 }
+@media (min-width:1280px){
+    .galery figure{
+    width: 35%;
+    margin-left: 135px;
+    float: left;
+    }
+    .galery figcaption{
+        color: green;
+    }
+}
 .container{
     display: flex;
     flex-flow: row wrap;
@@ -79,11 +89,6 @@ a{
     text-align: center;
     margin-top: 0 ;
     margin-bottom: 10px;
-}
-.galery figure{
-    width: 35%;
-    margin-left: 135px;
-    float: left;
 }
 .galery figure img{
     width: 100%;
