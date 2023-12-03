@@ -55,6 +55,8 @@
     order: 4;
     flex: 1 1 100%;
     width: 100%;
+    margin-left: 0;
+    margin-right: 0;
 }
 .galery h4{
     text-align: center;
