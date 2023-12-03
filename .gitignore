@@ -1,1 +1,2 @@
-#igore 
+#igore all .py files
+*.py
