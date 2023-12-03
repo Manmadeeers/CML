@@ -1,2 +1,10 @@
 #igore all .py files
 *.py
+#ignore all files ending with tilda
+*~
+#ignore all files with .o or .a extenctions
+*.[oa]
+#ignore all .log files
+*.log
+#ignore all directories starting with temp/
+temp/
