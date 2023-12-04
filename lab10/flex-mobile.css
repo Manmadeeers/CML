@@ -30,13 +30,16 @@
     text-align: center;
     margin-top: 10px;
 }
+.menu{
+    align-items: flex-end;
+}
 .menu div  {
     flex:1 1 100%;
-    text-align: left;
     border: 1px solid;
     height: 0;
     width: 30px;
     margin-top: 5px;
+
 }
 .menu div a{
     visibility: hidden;
@@ -70,4 +73,9 @@
 .galery figure img{
     width: 100%;
     margin-left: 0;
+}
+.mobile{
+    visibility: visible;
+    float: right;
+    margin-right: 10px;
 }
