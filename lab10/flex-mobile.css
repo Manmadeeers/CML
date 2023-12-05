@@ -30,28 +30,6 @@
     text-align: center;
     margin-top: 10px;
 }
-.menu{
-    align-items: flex-end;
-}
-.menu div  {
-    flex:1 1 100%;
-    border: 1px solid;
-    height: 0;
-    width: 30px;
-    margin-top: 5px;
-
-}
-.menu div a{
-    visibility: hidden;
-}
-.menu:hover div a{
-    visibility: visible;
-}
-.menu:hover div{
-    height:auto;
-    width: auto;
-    border: none;
-}
 
 .galery{
     order: 4;
@@ -78,4 +56,12 @@
     visibility: visible;
     float: right;
     margin-right: 10px;
+}
+.menu div{
+    visibility: hidden;
+    height: 0;
+}
+.head:hover div{
+    visibility: visible;
+    height: auto;
 }

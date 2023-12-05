@@ -49,13 +49,13 @@
     order: 1;
     flex: 1 1 100%;
     text-align: right;
-    align-items: flex-end;
+    width: 100%;
 }
 
 .menu div  {
     flex:1 1 100%;
-    text-align: left;
     border: none;
+    margin-right: 5px;
 }
 
 video{
@@ -97,6 +97,6 @@ a{
 .galery figcaption{
     text-align: center;
 }
-.mobile{
+.mobile {
     visibility: hidden;
 }
