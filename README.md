@@ -1,3 +1,3 @@
 # CML
 Repository created for CML laboratory works
-<br>Approved by E.V Brakovsky(for now)</br>
+<br>Wih love for E.V Brakovsky</br>
