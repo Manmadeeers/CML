@@ -1,3 +1,3 @@
 # CML
 Repository created for CML laboratory works
-<br>Wih love for E.V Brakovsky</br>
+<br>With love for E.V Brakovsky</br>
