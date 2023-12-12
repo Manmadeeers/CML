@@ -1,0 +1,30 @@
+$display:flex;
+$border:1px solid black;
+$marg:15px;
+$ff: row wrap;
+$alcon:space-between;
+$alitem:flex-start;
+$conjust:center;
+
+.container{
+
+    display: $display;
+    flex-flow:$ff;
+    align-content: $alcon;
+    align-items: $alitem;
+    justify-content: $conjust;
+}
+.container div{
+    border: $border;
+    margin:$marg;
+}
+$logowdth:20%;
+$logohgt:70%;
+$bt:10px;
+.logo{
+    width: $logowdth;
+    height: $logohgt;
+    margin-bottom: $bt;
+}
+// @for $i from 0 through
+

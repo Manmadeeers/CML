@@ -1,3 +1,5 @@
-div {
-  border: 1px solid black;
-}/*# sourceMappingURL=header.css.map */
+.header {
+  order: 0;
+  height: 50px;
+  flex: 1 1 100%;
+}

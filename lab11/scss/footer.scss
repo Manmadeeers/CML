@@ -1,0 +1,10 @@
+$orderf:15;
+$heightf:50px;
+$flexf:1 1 100%;
+$wdf:100%;
+.footer{
+    order: $orderf;
+    flex:$flexf;
+    height: $heightf;
+    width: $wdf;
+}
