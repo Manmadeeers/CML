@@ -1,1 +1,155 @@
-@import 'variables.scss'
+@import 'variables.scss';
+
+@mixin displayandborder{
+    display: $dsinline;
+    border: $border;
+}
+
+header{
+    @include displayandborder;
+}
+header div{
+    @include displayandborder;
+    height: 80%;
+    width: 200px;
+    margin-left:$margleftbig;
+    margin-top:5px;
+    text-align:$textalcent;
+}
+header div img{
+    height: $imgheight;
+    width: 100px;
+    margin-bottom:50px;
+}
+//nav here
+nav{
+    float: $flright;
+    margin-right: $margrightbig;
+}
+nav li {
+    @include displayandborder;
+    list-style-type: none;
+    width: 100px;
+    text-align: $textalcent;
+    margin-left: 5px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.container1 div{
+    border: $border;
+}
+.head{
+    display: $dsinline;
+    width:$fullwidth;
+    margin-left: 0;
+    margin-top:0;
+    height:$heightsmall
+}
+.t1,.t2,.t3{
+    margin-top:$margtopbig;
+    height:200px;
+    width:250px;
+    overflow: hidden;
+}
+.t1{
+    float:$flleft;
+}
+.t2{
+    display: $dsinline;
+}
+.t3{
+    float: $flright;
+}
+// form here
+@mixin form{
+    float: $flright;
+    border: $border;
+    margin-top: $margtopbig;
+    margin-left: $margleftbig;
+    width: $rightptwidth;
+    height: auto;
+}
+form{
+    @include form;
+}
+
+
+.headlf{
+    @include displayandborder;
+    margin-top: $margtopsmall;
+    margin-left: $margleftbig;
+    width: $rightptwidth;
+    text-align: $textalcent;
+}
+.container2{
+    float: $flright;
+    border: $border;
+    margin-top:$margtopsmall;
+    margin-left: $margleftbig;
+    width: $rightptwidth;
+}
+.container2 figure{
+    border: $border;
+    height: $figureheight;
+    width: $figurewidth;
+}
+.container2 figure img{
+    height: $imgheight;
+    width: $imgwidth;
+}
+.c1,.c2{
+    float:$flright;
+    border: $border;
+    width: $contleftwidth;
+    margin-right: $margrightbig;
+    height: 100px;
+}
+.c1{
+    margin-top: 16px;
+}
+.container3{
+    display: $dsinline;
+    width:$contleftwidth;
+    margin-top:$margtopbig;
+}
+.container3 figure{
+    float: $flleft;
+    border: $border;
+    height: 160px;
+    width: 160px;
+    margin-right: 0;
+    margin-left: 50px;
+}
+.container3 figure img{
+    height: $imgheight;
+    width:$imgwidth;
+}
+.head3{
+    @include displayandborder;
+    width: $fullwidth;
+    height: $heightsmall;
+    text-align: $textalcent;
+}
+footer{
+    display: flex;
+    align-items: $textalcent;
+    border: $border;
+    margin-top: $margtopbig;
+    height: $heightbig;
+}
+footer span{
+    margin-left:15px;
+}
+
+.container1{
+    font-size: 16pt;
+}
+$i:3;
+@while $i != 1{
+    .container#{$i}{
+        font-size: 14pt;
+    }
+}
