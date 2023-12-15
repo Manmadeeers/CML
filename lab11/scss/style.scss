@@ -1,4 +1,4 @@
-@import 'variables.scss';
+@import '_variables.scss';
 
 @mixin displayandborder{
     display: $dsinline;
@@ -21,7 +21,7 @@ header div img{
     width: 100px;
     margin-bottom:50px;
 }
-//nav here
+
 nav{
     float: $flright;
     margin-right: $margrightbig;
@@ -63,7 +63,7 @@ nav a{
 .t3{
     float: $flright;
 }
-// form here
+
 @mixin form{
     float: $flright;
     border: $border;
