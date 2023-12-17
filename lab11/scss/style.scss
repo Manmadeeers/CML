@@ -1,18 +1,29 @@
 @import '_variables.scss';
 
+@mixin inline-block-plus-border{
+    display: $dsinline;
+    border: $border;
+}
+@function bigger_size(){
+    @return 14pt;
+}
+$fontsizebig: bigger_size();
+@function smaller_size(){
+    @return 12pt;
+}
+$fontsizesmall:smaller_size();
 header{
     border: $border;
     height: $heightbig;
 }
 
-h5{
+h5,h4,h3,h2,h1{
     display: inline;
 }
 
 header div{
+    @include inline-block-plus-border();
     text-align: $textalcent;
-    display: $dsinline;
-    border: $border;
     height: 80%;
     width: 200px;
     margin-left: $margleftbig;
@@ -28,9 +39,8 @@ nav{
     margin-right: $margrightbig;
 }
 nav li{
+    @include inline-block-plus-border();
     list-style-type: none;
-    display: $dsinline;
-    border: $border;
     width: 100px;
     text-align: $textalcent;
     margin-left: 5px;
@@ -74,13 +84,16 @@ nav a {
 .t3{
     float: $flright;
 }
-form{
+@mixin form{
     float:$flright;
     border: $border;
     margin-top: $margtopbig;
     margin-left: $margleftbig;
     width: $rightptwidth;
     height: auto;
+}
+form{
+    @include form();
 }
 form h5{
     margin-left: $margleftsmall;
@@ -102,8 +115,7 @@ form p{
     margin-left: $margleftsmall;
 }
 .headlf{
-    display: $dsinline;
-    border: $border;
+    @include inline-block-plus-border();
     text-align: $textalcent;
     margin-top: $margtopsmall;
     margin-left: $margleftbig;
@@ -158,8 +170,7 @@ form p{
     width: $imgwidth;
 }
 .head3{
-    display: $dsinline;
-    border: $border;
+    @include inline-block-plus-border();
     width: $fullwidth;
     height: $headhight;
     text-align: $textalcent;

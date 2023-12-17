@@ -3,14 +3,14 @@ header {
   height: 50px;
 }
 
-h5 {
+h5, h4, h3, h2, h1 {
   display: inline;
 }
 
 header div {
-  text-align: center;
   display: inline-block;
   border: 1px solid;
+  text-align: center;
   height: 80%;
   width: 200px;
   margin-left: 20px;
@@ -29,9 +29,9 @@ nav {
 }
 
 nav li {
-  list-style-type: none;
   display: inline-block;
   border: 1px solid;
+  list-style-type: none;
   width: 100px;
   text-align: center;
   margin-left: 5px;
