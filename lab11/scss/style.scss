@@ -1,107 +1,89 @@
 @import '_variables.scss';
 
-@mixin displayandborder{
-    display: $dsinline;
-    border: $border;
-}
-
-// @function check_text(){
-//     @return ;
-// }
 header{
     border: $border;
     height: $heightbig;
 }
+
+h5{
+    display: inline;
+}
+
 header div{
-    @include displayandborder;
+    text-align: $textalcent;
+    display: $dsinline;
+    border: $border;
     height: 80%;
     width: 200px;
-    margin-left:$margleftbig;
-    margin-top:5px;
-    text-align:$textalcent;
+    margin-left: $margleftbig;
+    margin-top: 5px;
 }
 header div img{
     height: $imgheight;
-    width: 100px;
-    margin-bottom:50px;
+    width: $imgwidth;
+    margin-bottom: 50px;
 }
-
 nav{
-    float: $flright;
+    float:$flright;
     margin-right: $margrightbig;
 }
-nav li {
-    @include displayandborder;
+nav li{
     list-style-type: none;
+    display: $dsinline;
+    border: $border;
     width: 100px;
     text-align: $textalcent;
     margin-left: 5px;
 }
-
-nav a{
+nav a {
     text-decoration: none;
 }
 .container1{
-float: $flleft;
-    text-align: $textalcent;
+    float: $flleft;
     margin-top: $margtopbig;
     margin-left: 0;
     width: $contleftwidth;
+}
+.container1 p{
+    display: inline;
 }
 .container1 div{
     border: $border;
 }
 .head{
     display: $dsinline;
-    width:$fullwidth;
+    width: $fullwidth;
     margin-left: 0;
-    margin-top:0;
-    height:$heightsmall
+    margin-top: 0;
+    height: $headhight;
+    text-align: $textalcent;
 }
-.head h5{
-    display: inline;
-}
-.t1,.t2,.t3{
+.t1, .t2, .t3{
     margin-top:$margtopbig;
-    height:250px;
-    width:250px;
-    // overflow: hidden;
+    height: 200px;
+    width: 250px;
+    overflow: hidden;
 }
 .t1{
-    float:$flleft;
-}
-.t1 p{
-    display: inline;
+    float: $flleft;
 }
 .t2{
     display: $dsinline;
-}
-.t2 p{
-    display: inline;
+    margin-left: $margleftbig*4;
 }
 .t3{
     float: $flright;
 }
-.t3 p{
-    display: inline;
-}
-@mixin form{
-    float: $flright;
+form{
+    float:$flright;
     border: $border;
     margin-top: $margtopbig;
     margin-left: $margleftbig;
     width: $rightptwidth;
     height: auto;
 }
-form{
-    @include form;
-}
-form p{
-    margin-left:$margleftbig;
-}
 form h5{
-    display: inline;
-    margin-left: $margleftbig;
+    margin-left: $margleftsmall;
 }
 input{
     display: $dsinline;
@@ -111,61 +93,57 @@ input{
 }
 label{
     display: $dsinline;
-    text-align: $textalleft;
+    vertical-align: top;
+    text-align: left;
     margin-right: $margrightsmall;
     width: 100px;
 }
-
+form p{
+    margin-left: $margleftsmall;
+}
 .headlf{
-    @include displayandborder;
+    display: $dsinline;
+    border: $border;
+    text-align: $textalcent;
     margin-top: $margtopsmall;
     margin-left: $margleftbig;
+    height: $headhight;
     width: $rightptwidth;
-    text-align: $textalcent;
 }
-.headlf h5{
-    display: inline;
-}
+
 .container2{
     float: $flright;
     border: $border;
-    margin-top:$margtopsmall;
-    margin-left: $margleftbig;
+    margin-top: $margtopsmall;
+    margin-left: $margleftsmall;
     width: $rightptwidth;
 }
-
+.container2 p{
+    display: inline;
+}
 .container2 figure{
     border: $border;
-    height: $figureheight;
-    width: $figurewidth;
+    height: 100px;
+    width: 100px;
 }
 .container2 figure img{
     height: $imgheight;
     width: $imgwidth;
 }
-.c1,.c2{
-    float:$flright;
+.c1, .c2{
+    float: $flright;
     border: $border;
     width: $contleftwidth;
     margin-right: $margrightbig;
     height: 100px;
-}
-.c1 p{
-    display: inline;
-}
-.c2 p{
-    display: inline;
 }
 .c1{
     margin-top: 16px;
 }
 .container3{
     display: $dsinline;
-    width:$contleftwidth;
-    margin-top:$margtopbig;
-}
-.container3 h5{
-    display: inline;
+    width: $contleftwidth;
+    margin-top: $margtopbig;
 }
 .container3 figure{
     float: $flleft;
@@ -177,26 +155,23 @@ label{
 }
 .container3 figure img{
     height: $imgheight;
-    width:$imgwidth;
+    width: $imgwidth;
 }
 .head3{
-    @include displayandborder;
+    display: $dsinline;
+    border: $border;
     width: $fullwidth;
-    height: $heightsmall;
+    height: $headhight;
     text-align: $textalcent;
 }
+
 footer{
     display: flex;
-    align-items: $textalcent;
+    align-items: center;
     border: $border;
-    margin-top: $margtopbig;
+    margin-top: 40px;
     height: $heightbig;
 }
 footer span{
-    margin-left:15px;
+    margin-left: 15px;
 }
-
-.container1{
-    font-size: 16pt;
-}
-

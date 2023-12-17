@@ -3,19 +3,23 @@ header {
   height: 50px;
 }
 
+h5 {
+  display: inline;
+}
+
 header div {
+  text-align: center;
   display: inline-block;
   border: 1px solid;
   height: 80%;
   width: 200px;
   margin-left: 20px;
   margin-top: 5px;
-  text-align: center;
 }
 
 header div img {
   height: 100%;
-  width: 100px;
+  width: 100%;
   margin-bottom: 50px;
 }
 
@@ -25,9 +29,9 @@ nav {
 }
 
 nav li {
+  list-style-type: none;
   display: inline-block;
   border: 1px solid;
-  list-style-type: none;
   width: 100px;
   text-align: center;
   margin-left: 5px;
@@ -39,10 +43,13 @@ nav a {
 
 .container1 {
   float: left;
-  text-align: center;
   margin-top: 20px;
   margin-left: 0;
   width: 60%;
+}
+
+.container1 p {
+  display: inline;
 }
 
 .container1 div {
@@ -55,40 +62,27 @@ nav a {
   margin-left: 0;
   margin-top: 0;
   height: 30px;
-}
-
-.head h5 {
-  display: inline;
+  text-align: center;
 }
 
 .t1, .t2, .t3 {
   margin-top: 20px;
-  height: 250px;
+  height: 200px;
   width: 250px;
+  overflow: hidden;
 }
 
 .t1 {
   float: left;
 }
 
-.t1 p {
-  display: inline;
-}
-
 .t2 {
   display: inline-block;
-}
-
-.t2 p {
-  display: inline;
+  margin-left: 80px;
 }
 
 .t3 {
   float: right;
-}
-
-.t3 p {
-  display: inline;
 }
 
 form {
@@ -100,13 +94,8 @@ form {
   height: auto;
 }
 
-form p {
-  margin-left: 20px;
-}
-
 form h5 {
-  display: inline;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 input {
@@ -119,30 +108,36 @@ input {
 
 label {
   display: inline-block;
+  vertical-align: top;
   text-align: left;
   margin-right: 10px;
   width: 100px;
 }
 
+form p {
+  margin-left: 10px;
+}
+
 .headlf {
   display: inline-block;
   border: 1px solid;
+  text-align: center;
   margin-top: 10px;
   margin-left: 20px;
+  height: 30px;
   width: 38.4%;
-  text-align: center;
-}
-
-.headlf h5 {
-  display: inline;
 }
 
 .container2 {
   float: right;
   border: 1px solid;
   margin-top: 10px;
-  margin-left: 20px;
+  margin-left: 10px;
   width: 38.4%;
+}
+
+.container2 p {
+  display: inline;
 }
 
 .container2 figure {
@@ -164,14 +159,6 @@ label {
   height: 100px;
 }
 
-.c1 p {
-  display: inline;
-}
-
-.c2 p {
-  display: inline;
-}
-
 .c1 {
   margin-top: 16px;
 }
@@ -180,10 +167,6 @@ label {
   display: inline-block;
   width: 60%;
   margin-top: 20px;
-}
-
-.container3 h5 {
-  display: inline;
 }
 
 .container3 figure {
@@ -212,14 +195,10 @@ footer {
   display: flex;
   align-items: center;
   border: 1px solid;
-  margin-top: 20px;
+  margin-top: 40px;
   height: 50px;
 }
 
 footer span {
   margin-left: 15px;
-}
-
-.container1 {
-  font-size: 16pt;
 }
