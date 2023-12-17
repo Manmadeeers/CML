@@ -5,8 +5,12 @@
     border: $border;
 }
 
+// @function check_text(){
+//     @return ;
+// }
 header{
-    @include displayandborder;
+    border: $border;
+    height: $heightbig;
 }
 header div{
     @include displayandborder;
@@ -37,7 +41,13 @@ nav li {
 nav a{
     text-decoration: none;
 }
-
+.container1{
+float: $flleft;
+    text-align: $textalcent;
+    margin-top: $margtopbig;
+    margin-left: 0;
+    width: $contleftwidth;
+}
 .container1 div{
     border: $border;
 }
@@ -48,22 +58,33 @@ nav a{
     margin-top:0;
     height:$heightsmall
 }
+.head h5{
+    display: inline;
+}
 .t1,.t2,.t3{
     margin-top:$margtopbig;
-    height:200px;
+    height:250px;
     width:250px;
-    overflow: hidden;
+    // overflow: hidden;
 }
 .t1{
     float:$flleft;
 }
+.t1 p{
+    display: inline;
+}
 .t2{
     display: $dsinline;
+}
+.t2 p{
+    display: inline;
 }
 .t3{
     float: $flright;
 }
-
+.t3 p{
+    display: inline;
+}
 @mixin form{
     float: $flright;
     border: $border;
@@ -75,7 +96,25 @@ nav a{
 form{
     @include form;
 }
-
+form p{
+    margin-left:$margleftbig;
+}
+form h5{
+    display: inline;
+    margin-left: $margleftbig;
+}
+input{
+    display: $dsinline;
+}
+.butbut{
+    margin-right: $margrightsmall;
+}
+label{
+    display: $dsinline;
+    text-align: $textalleft;
+    margin-right: $margrightsmall;
+    width: 100px;
+}
 
 .headlf{
     @include displayandborder;
@@ -84,6 +123,9 @@ form{
     width: $rightptwidth;
     text-align: $textalcent;
 }
+.headlf h5{
+    display: inline;
+}
 .container2{
     float: $flright;
     border: $border;
@@ -91,6 +133,7 @@ form{
     margin-left: $margleftbig;
     width: $rightptwidth;
 }
+
 .container2 figure{
     border: $border;
     height: $figureheight;
@@ -107,6 +150,12 @@ form{
     margin-right: $margrightbig;
     height: 100px;
 }
+.c1 p{
+    display: inline;
+}
+.c2 p{
+    display: inline;
+}
 .c1{
     margin-top: 16px;
 }
@@ -114,6 +163,9 @@ form{
     display: $dsinline;
     width:$contleftwidth;
     margin-top:$margtopbig;
+}
+.container3 h5{
+    display: inline;
 }
 .container3 figure{
     float: $flleft;
@@ -147,9 +199,4 @@ footer span{
 .container1{
     font-size: 16pt;
 }
-$i:3;
-@while $i != 1{
-    .container#{$i}{
-        font-size: 14pt;
-    }
-}
+

@@ -1,8 +1,13 @@
 header{
     border: 1px solid;
     height: 50px;
+
+}
+h5{
+    display: inline;
 }
 header div{
+    text-align: center;
     display: inline-block;
     border: 1px solid;
     height: 80%;
@@ -33,10 +38,12 @@ nav a{
 }
 .container1{
     float: left;
-    text-align: center;
     margin-top: 20px;
     margin-left: 0;
     width: 60%;
+}
+.container1 p{
+    display: inline;
 }
 .container1 div{
     border: 1px solid ;
@@ -53,10 +60,9 @@ nav a{
     margin-top: 20px;
     height: 200px;
     width: 250px;
-    overflow: hidden;
 }
 .t1{
-    float: left;
+    float: left ;
 }
 .t2{
     display: inline-block;
@@ -104,6 +110,9 @@ form p{
     margin-left: 20px;
     width: 38.4%;
 }
+.container2 p{
+    display: inline;
+}
 .container2 figure{
     border: 1px solid;
     height: 100px;
@@ -120,6 +129,7 @@ form p{
     margin-right: 20px;
     height: 100px;
 }
+
 .c1{
     margin-top: 16px;
 }
@@ -151,7 +161,7 @@ footer{
     display: flex;
     align-items: center;
     border: 1px solid;
-    margin-top: 20px;
+    margin-top: 40px;
     height: 50px;
 }
 footer span{
