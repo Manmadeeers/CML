@@ -4,21 +4,40 @@
     display: $dsinline;
     border: $border;
 }
-@function bigger_size(){
-    @return 14pt;
+%inline-display{
+    display: inline;
 }
-$fontsizebig: bigger_size();
-@function smaller_size(){
-    @return 12pt;
+
+@function fszbig($big){
+    @return $fsizebg - $big;
 }
-$fontsizesmall:smaller_size();
+@function fszsml($small){
+    @return $fsizesml - $small;
+}
+@function logic($logic){
+    @if $logic > $heightt{
+        @return red;
+    }
+    @if $logic< $heightt{
+        @return blue;
+    }
+}
+@function logicc($logicc){
+    @if $logicc >$heightc{
+        @return red;
+    }
+    @if $logicc <$heightc{
+        @return blue;
+    }
+}
+
 header{
     border: $border;
     height: $heightbig;
 }
 
 h5,h4,h3,h2,h1{
-    display: inline;
+    @extend %inline-display;
 }
 
 header div{
@@ -55,7 +74,7 @@ nav a {
     width: $contleftwidth;
 }
 .container1 p{
-    display: inline;
+    @extend %inline-display;
 }
 .container1 div{
     border: $border;
@@ -68,10 +87,16 @@ nav a {
     height: $headhight;
     text-align: $textalcent;
 }
+.head p{
+    @extend %inline-display;
+    font-size: $fsizebg;
+}
 .t1, .t2, .t3{
     margin-top:$margtopbig;
-    height: 200px;
+    height: $heightt;
     width: 250px;
+    font-size: fszbig(7);
+    color: logic(150px);
     overflow: hidden;
 }
 .t1{
@@ -122,6 +147,10 @@ form p{
     height: $headhight;
     width: $rightptwidth;
 }
+.headlf p{
+    @extend %inline-display;
+    font-size: $fsizesml;
+}
 
 .container2{
     float: $flright;
@@ -131,7 +160,7 @@ form p{
     width: $rightptwidth;
 }
 .container2 p{
-    display: inline;
+    @extend %inline-display;
 }
 .container2 figure{
     border: $border;
@@ -147,7 +176,9 @@ form p{
     border: $border;
     width: $contleftwidth;
     margin-right: $margrightbig;
+    font-size: fszsml(4);
     height: 100px;
+    color: logicc(150px);
 }
 .c1{
     margin-top: 16px;
@@ -174,6 +205,9 @@ form p{
     width: $fullwidth;
     height: $headhight;
     text-align: $textalcent;
+}
+.head3 p{
+    @extend %inline-display;
 }
 
 footer{

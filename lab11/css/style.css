@@ -1,10 +1,10 @@
+.head3 p, .container2 p, .headlf p, .head p, .container1 p, h5, h4, h3, h2, h1 {
+  display: inline;
+}
+
 header {
   border: 1px solid;
   height: 50px;
-}
-
-h5, h4, h3, h2, h1 {
-  display: inline;
 }
 
 header div {
@@ -48,10 +48,6 @@ nav a {
   width: 60%;
 }
 
-.container1 p {
-  display: inline;
-}
-
 .container1 div {
   border: 1px solid;
 }
@@ -65,10 +61,16 @@ nav a {
   text-align: center;
 }
 
+.head p {
+  font-size: 20pt;
+}
+
 .t1, .t2, .t3 {
   margin-top: 20px;
   height: 200px;
   width: 250px;
+  font-size: 13pt;
+  color: blue;
   overflow: hidden;
 }
 
@@ -128,16 +130,16 @@ form p {
   width: 38.4%;
 }
 
+.headlf p {
+  font-size: 16pt;
+}
+
 .container2 {
   float: right;
   border: 1px solid;
   margin-top: 10px;
   margin-left: 10px;
   width: 38.4%;
-}
-
-.container2 p {
-  display: inline;
 }
 
 .container2 figure {
@@ -156,7 +158,9 @@ form p {
   border: 1px solid;
   width: 60%;
   margin-right: 20px;
+  font-size: 12pt;
   height: 100px;
+  color: red;
 }
 
 .c1 {

@@ -1,0 +1,23 @@
+books {
+    display: block;
+    border-collapse: col-
+    lapse;
+    margin: 10px;
+    }
+    book, head {
+    display: table-row;
+    }
+    ntitle, nauthor {
+    display: table-cell;
+    border: 1px solid
+    black;
+    padding: 5px;
+    text-align: center;
+    background: #ffff00;
+    }
+    title, author {
+    display: table-cell;
+    border: 1px solid
+    black;
+    padding: 5px;
+    }

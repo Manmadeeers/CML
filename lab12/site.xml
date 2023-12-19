@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet
+type="text/css"
+href="style.css"?>
+<books>
+    <head>
+    <nauthor>Автор</nauthor>
+    <ntitle>Название книги
+    </ntitle>
+    </head>
+    <book>
+    <author>C.В.Одиночкина
+    </author>
+    <title>Основы технологии
+    XML</title>
+    </book>
+    <book>
+    <author>Эрик Рэй</author>
+    <title>Изучаем XML</title>
+    </book>
+    </books>
