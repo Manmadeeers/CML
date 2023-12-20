@@ -1,5 +1,22 @@
 info{
     display: block;
-    border: 1px solid;
     margin-top: 20px;
+    margin-left: 20px;
+}
+trow{
+    display: table-row;
+    border-collapse: separate;
+}
+tcol{
+    display: table-cell;
+    width: 100px;
+    border: 1px solid;
+    border-collapse: separate;
+    text-align: center;
+}
+tname{
+    display: table-cell;
+    border: 1px solid black;
+    width: 150px;
+    background-color: yellow;
 }

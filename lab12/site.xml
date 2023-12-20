@@ -3,16 +3,33 @@
 
 <info>
     <trow>
-        <tcol></tcol>
-        <tcol></tcol>
-        <tcol></tcol>
-        <tcol></tcol>
-        <tcol></tcol>
-        <tcol></tcol>
+        <tname>Наименование товара</tname>
+        <tcol>Цена $</tcol>
+        <tcol>Кол-во единиц в наличии</tcol>
     </trow>
-    <trow></trow>
-    <trow></trow>
-    <trow></trow>
-    <trow></trow>
-    <trow></trow>
+    <trow>
+        <tcol>Зачёт по КЯР</tcol>
+        <tcol>Бесценно</tcol>
+        <tcol>150</tcol>
+    </trow>
+    <trow>
+        <tcol>Автомат(у Белодеда)</tcol>
+        <tcol>400 баллов рейтинга</tcol>
+        <tcol>30</tcol>
+    </trow>
+    <trow>
+        <tcol>Автомат(в руках)</tcol>
+        <tcol>Несданная сессия</tcol>
+        <tcol>150</tcol>
+    </trow>
+    <trow>
+        <tcol>Проект по ОПИ</tcol>
+        <tcol>2 бессонные ночи</tcol>
+        <tcol>1</tcol>
+    </trow>
+    <trow>
+        <tcol>Понимание АЛОВС</tcol>
+        <tcol>Жизнь</tcol>
+        <tcol>0</tcol>
+    </trow>
 </info>
