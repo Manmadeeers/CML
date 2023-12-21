@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="style.css" type="text/css"?>
 
-<info>
+<?xml-stylesheet href="style.css" type="text/css"?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="note.xsd">
     <trow>
         <tname>Наименование товара</tname>
         <tprice>Цена $</tprice>
@@ -32,4 +32,5 @@
         <tprice>Жизнь</tprice>
         <tamm>0</tamm>
     </trow>
+    
 </info>
