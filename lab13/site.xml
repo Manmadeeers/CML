@@ -18,13 +18,18 @@
 <tamm>150</tamm>
 </trow>
 <trow>
-<tname>Проект по ОПИ</tname>
-<tprice>2 бессонные ночи</tprice>
-<tamm>1</tamm>
-</trow>
-<trow>
 <tname>Понимание АЛОВС</tname>
 <tprice>Жизнь</tprice>
 <tamm>0</tamm>
+</trow>
+<trow>
+<tname>Понимание ЛАиАГ</tname>
+<tprice>Родиться Чайковским</tprice>
+<tamm>0</tamm>
+</trow>
+<trow>
+<tname>Проект по ОПИ</tname>
+<tprice>2 бессонные ночи</tprice>
+<tamm>1</tamm>
 </trow>
 </info>
