@@ -2,7 +2,7 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:template match="/">
 <html>
-<head><title>I don't know</title>
+<head><title>Goods</title>
 </head>
 <body>
 <h2>Товары БГТУ</h2>
